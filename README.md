@@ -132,7 +132,8 @@ Minha jornada vai além do código! 🚀 Confira alguns dos eventos que particip
 
 <div align="center">
 
-![](https://gitassets.victorlisbronzo.me/api/card/cmkka16ng00011uogqtcmoqh5)
+![](https://gitassets.victorlisbronzo.me/api/card/cmpig89ix00060imo7udpm4hk?v=8kxwaj)
+![](https://gitassets.victorlisbronzo.me/api/card/cmkka16ng00011uogqtcmoqh5?v=hmxlff)
 
 </div>
 
