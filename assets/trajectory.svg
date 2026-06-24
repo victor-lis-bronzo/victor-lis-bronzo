@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="460" viewBox="0 0 600 460" fill="none">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap');
+    .year { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 12px; fill: #10B981; letter-spacing: 1px; }
+    .role { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 16px; fill: #F8FAFC; }
+    .company { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 14px; fill: #94A3B8; }
+    .line { stroke: #0F172A; stroke-width: 2; stroke-linecap: round; }
+    
+    /* Configuração base da bolinha */
+    .dot { 
+      fill: #02061700; 
+      stroke: #10B981; 
+      stroke-width: 3; 
+      transform-origin: 0px 0px;
+      animation: jumpAndFillLoop 24s infinite;
+    }
+
+    /* 
+      Ciclo de 24 segundos (100%).
+      Cada bolinha passa 25% do tempo ativa (6 segundos) e 75% oca (18 segundos).
+    */
+    @keyframes jumpAndFillLoop {
+      0% {
+        <!-- transform: scale(1) translateY(0px); -->
+        fill: #02061700;
+      }
+      1% { /* ~0.24s - Pico do pulo */
+        <!-- transform: scale(1.4) translateY(-5px); -->
+        fill: #10B981;
+      }
+      2.5% { /* ~0.60s - Impacto e pouso */
+        <!-- transform: scale(0.9, 1.1) translateY(1px); -->
+        fill: #10B981;
+      }
+      4% { /* ~0.96s - Estabilização na cor verde */
+        <!-- transform: scale(1) translateY(0px); -->
+        fill: #10B981;
+      }
+      23% { /* ~5.52s - Início do fade-out */
+        <!-- transform: scale(1) translateY(0px); -->
+        fill: #10B981;
+      }
+      25%, 100% { /* ~6.00s até 24.00s - Volta ao estado oco e aguarda os outros ciclos */
+        <!-- transform: scale(1) translateY(0px); -->
+        fill: #02061700;
+      }
+    }
+
+    .card-bg { fill: #1a1a2e00; rx: 12; stroke: #1E293B; stroke-width: 1; }
+  </style>
+
+  <!-- Background Geral -->
+  <rect width="600" height="460" rx="20" fill="#02061700"/>
+
+  <!-- Linha Vertical Conectora (Commit History Style) -->
+  <line x1="60" y1="40" x2="60" y2="420" class="line" stroke-dasharray="4 4"/>
+
+  <!-- ITEM 1 -->
+  <g transform="translate(60, 60)">
+    <circle cx="0" cy="0" r="6" class="dot" style="animation-delay: 18s;"/>
+    <rect x="30" y="-30" width="480" height="80" class="card-bg"/>
+    <text x="50" y="-5" class="year">2025 - 2027</text>
+    <text x="50" y="18" class="role">Análise e Desenvolvimento de Sistemas (ADS)</text>
+    <text x="50" y="38" class="company">Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</text>
+  </g>
+
+  <!-- ITEM 2 -->
+  <g transform="translate(60, 160)">
+    <circle cx="0" cy="0" r="6" class="dot" style="animation-delay: 12s;"/>
+    <rect x="30" y="-30" width="480" height="80" class="card-bg"/>
+    <text x="50" y="-5" class="year">2025 - Até o momento</text>
+    <text x="50" y="18" class="role">Desenvolvedor Full-Stack</text>
+    <text x="50" y="38" class="company">Star Seg 24h - Monitoramento e Segurança</text>
+  </g>
+
+  <!-- ITEM 3 -->
+  <g transform="translate(60, 260)">
+    <circle cx="0" cy="0" r="6" class="dot" style="animation-delay: 6s;"/>
+    <rect x="30" y="-30" width="480" height="80" class="card-bg"/>
+    <text x="50" y="-5" class="year">2023 - Até o momento</text>
+    <text x="50" y="18" class="role">Freelances / Projetos</text>
+    <text x="50" y="38" class="company">CNPJ: 62.416.012/0001-59</text>
+  </g>
+
+  <!-- ITEM 4 -->
+  <g transform="translate(60, 360)">
+    <circle cx="0" cy="0" r="6" class="dot" style="animation-delay: 0s;"/>
+    <rect x="30" y="-30" width="480" height="80" class="card-bg"/>
+    <text x="50" y="-5" class="year">2022 - 2024</text>
+    <text x="50" y="18" class="role">Desenvolvimento de Sistemas (DS)</text>
+    <text x="50" y="38" class="company">Etec Professor Carmine Biagio Tundisi</text>
+  </g>
+</svg>

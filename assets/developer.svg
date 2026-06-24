@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="180" viewBox="0 0 600 180" fill="none">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&amp;display=swap');
+    .code {
+      font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+      font-size: 16px;
+    }
+    .keyword { fill: #10B981; }
+    .variable { fill: #22D3EE; }
+    .property { fill: #2DD4BF; }
+    .string { fill: #34D399; }
+    .operator { fill: #F8FAFC; }
+    .punctuation { fill: #F8FAFC; opacity: 0.7; }
+
+    /* Classes para a animação de transição das roles */
+    .role {
+      opacity: 0;
+      animation: rotateRole 18s infinite;
+    }
+
+    /* Ciclo total de 9 segundos (3s para cada role com fade-in e fade-out suaves) */
+    @keyframes rotateRole {
+      0% {
+        opacity: 0;
+      }
+      2.2% { /* Transição de entrada (~0.2s) */
+        opacity: 1;
+      }
+      31.1% { /* Mantém visível até perto do fim dos 3s */
+        opacity: 1;
+      }
+      33.3% { /* Transição de saída (~0.2s) */
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+  </style>
+
+  <!-- Janela do Terminal -->
+  <rect width="600" height="180" rx="12" fill="#0F172A00" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Barra de Título / Botões MacOS -->
+
+<circle cx="25" cy="25" r="6" fill="#FF5F56"/> <!-- Red -->
+<circle cx="45" cy="25" r="6" fill="#FFBD2E"/> <!-- Yellow -->
+<circle cx="65" cy="25" r="6" fill="#27C93F"/> <!-- Green -->
+
+  <!-- Conteúdo do Código -->
+  <text x="30" y="70" class="code">
+    <tspan class="keyword">const</tspan>
+    <tspan class="variable"> developer</tspan>
+    <tspan class="operator"> =</tspan>
+    <tspan class="punctuation"> {</tspan>
+  </text>
+
+  <text x="50" y="100" class="code">
+    <tspan class="property">name<tspan class="punctuation">:</tspan></tspan>
+    <tspan class="string"> "Victor Lis Bronzo"<tspan class="punctuation">,</tspan></tspan>
+  </text>
+
+  <text x="50" y="130" class="code">
+    <tspan class="property">role<tspan class="punctuation">:</tspan></tspan>
+  </text>
+
+  <text x="102.8" y="130" class="code role" style="animation-delay: 0s;">
+    <tspan class="string"> "Full-Stack Developer"</tspan>
+  </text>
+
+  <text x="102.8" y="130" class="code role" style="animation-delay: 6s;">
+    <tspan class="string"> "Technical Generalist"</tspan>
+  </text>
+
+  <text x="102.8" y="130" class="code role" style="animation-delay: 12s;">
+    <tspan class="string"> "Problem Solver"</tspan>
+  </text>
+
+  <text x="30" y="160" class="code">
+    <tspan class="punctuation">};</tspan>
+  </text>
+</svg>
