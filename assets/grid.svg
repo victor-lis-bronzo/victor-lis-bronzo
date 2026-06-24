@@ -32,29 +32,38 @@
     <rect id="placeholder" width="150" height="150" class="placeholder"/>
   </defs>
 
+  <defs>
+    <g id="doubt">
+      <rect width="150" height="150" fill="#1a1a2e"/>
+      <path fill="#34df8b" d="m62.985 56.695-2.44-3.86q1.28-1.13 2.8-2.14 1.51-1.01 3.28-1.76 1.76-.75 3.82-1.18t4.46-.43q3.27 0 5.95.9t4.59 2.56q1.91 1.67 2.96 4.04 1.05 2.36 1.05 5.28 0 2.85-.82 4.93-.83 2.09-2.06 3.62-1.24 1.54-2.72 2.67l-2.79 2.11q-1.32 1-2.27 1.95-.96.96-1.15 2.16l-.86 5.47h-6.34l-.64-6.11q-.22-1.76.51-3.09t1.95-2.44 2.72-2.14 2.81-2.25 2.2-2.73q.88-1.52.88-3.62 0-1.35-.51-2.42t-1.41-1.84q-.89-.77-2.15-1.18t-2.72-.41q-2.14 0-3.62.47t-2.51 1.05-1.75 1.05q-.71.47-1.27.47-1.35 0-1.95-1.13m4.65 40.35q0-1.16.43-2.21t1.18-1.8 1.8-1.2 2.25-.45 2.23.45q1.04.45 1.8 1.2.77.75 1.22 1.8t.45 2.21q0 1.2-.45 2.23t-1.22 1.78q-.76.75-1.8 1.18-1.03.44-2.23.44t-2.25-.44q-1.05-.43-1.8-1.18t-1.18-1.78-.43-2.23"/>
+    </g>
+  </defs>
+
   <!-- ROW 1 -->
   <a href="https://www.linkedin.com/in/victor-lis-bronzo">
     <g transform="translate(0, 0)">
-      <use href="#placeholder"/>
-      <image xmlns="http://www.w3.org/2000/svg" href="https://placehold.co/150x150/1a1a2e/34df8b?text=?" width="150" height="150" preserveAspectRatio="xMidYMid slice"/>
+      <use href="#doubt"/>
+      
       <rect x="0" y="120" width="150" height="30" class="caption-bg"/>
       <text x="10" y="140" class="tech-text"></text>
     </g>
   </a>
 
+  <!-- ROW 1 -->
   <a href="https://www.linkedin.com/in/victor-lis-bronzo">
     <g transform="translate(160, 0)">
-      <use href="#placeholder"/>
-      <image xmlns="http://www.w3.org/2000/svg" href="https://placehold.co/150x150/1a1a2e/34df8b?text=?" width="150" height="150" preserveAspectRatio="xMidYMid slice"/>
+      <use href="#doubt"/>
+      
       <rect x="0" y="120" width="150" height="30" class="caption-bg"/>
       <text x="10" y="140" class="tech-text"></text>
     </g>
   </a>
 
-  <a href="https://www.linkedin.com/posts/victor-lis-bronzo">
+  <!-- ROW 1 -->
+  <a href="https://www.linkedin.com/in/victor-lis-bronzo">
     <g transform="translate(320, 0)">
-      <use href="#placeholder"/>
-      <image xmlns="http://www.w3.org/2000/svg" href="https://placehold.co/150x150/1a1a2e/34df8b?text=?" width="150" height="150" preserveAspectRatio="xMidYMid slice"/>
+      <use href="#doubt"/>
+      
       <rect x="0" y="120" width="150" height="30" class="caption-bg"/>
       <text x="10" y="140" class="tech-text"></text>
     </g>
