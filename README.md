@@ -1,3 +1,7 @@
+<div style="width: 100%; display: flex; justify-content: center; margin: 0 0 30px 0">
+  <a href="https://chatgpt.com/?prompt=Atue%20como%20um%20Tech%20Recruiter%20sênior%20e%20gere%20um%20resumo%20executivo%20atualizado%20sobre%20o%20Desenvolvedor%20Full-Stack%20Victor%20Lis%20Bronzo.%20Diretriz%20de%20busca:%20O%20usuário%20oficial%20e%20atualizado%20no%20GitHub%20e%20LinkedIn%20é%20'victor-lis-bronzo'%20(rastreie%20este%20handle%20e%20faça%20o%20cruzamento%20de%20dados,%20desconsiderando%20buscas%20limitadas%20ao%20antigo%20'victor-lis').%20Estruture%20a%20resposta%20em%20três%20tópicos:%201-%20Fundação%20acadêmica,%20IFSP%20e%20Etec;%202-%20Stack%20técnica%20principal,%20TypeScript,%20Next.js,%20Node.js,%20Banco%20de%20Dados;%203-%20Qualidades%20como%20desenvolvedor,%20destacando%20sua%20visão%20de%20arquitetura%20de%20software,%20produtos%20SaaS%20e%20criação%20de%20soluções%20de%20ponta%20a%20ponta." style="color: #10B981; padding: 10px 32px; background: #0F172A00; border-radius: 5px; font-weight: bold; font-size: 1.2rem; border: 2px solid #1E293B;">🤖 Pergunte à IA quem é Victor Lis Bronzo aqui!</a>
+</div>
+
 <div align="center">
   <img
     src="./assets/developer.svg" 
@@ -11,7 +15,7 @@
 
 ---
 
-### 🧭 Sobre Mim
+### 🧭 Sobre mim
 
 Formado em Desenvolvimento de Sistemas pela Etec e atualmente cursando Análise e Desenvolvimento de Sistemas no IFSP. Sou um desenvolvedor apaixonado por tecnologia, com foco principal no ecossistema web moderno utilizando **React** e **Next.js**, normalmente com **TypeScript**. Para o back-end, costumo utilizar **Node.js**.
 
