@@ -89,7 +89,7 @@ Busco constantemente aprofundar meus conhecimentos para criar aplicações otimi
 <div align="center">
   <img 
     width="420"
-    src="https://streak-stats.demolab.com/?user=Victor-Lis&theme=dark&date_format=j%2Fn%5B%2FY%5D&background=0D111700&hide_border=true&ring=34df8b&fire=34df8b&currStreakLabel=34df8b" 
+    src="https://streak-stats.demolab.com/?user=victor-lis-bronzo&theme=dark&date_format=j%2Fn%5B%2FY%5D&background=0D111700&hide_border=true&ring=34df8b&fire=34df8b&currStreakLabel=34df8b" 
     alt="GitHub Streak"
   />
 <br>
