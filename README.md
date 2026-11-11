@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="./assets/aquarium.svg"
+    src="https://raw.githubusercontent.com/victor-lis-bronzo/victor-lis-bronzo/output/aquarium.svg"
     alt="Aquário gerado a partir das minhas contribuições do GitHub"
     width="800"
   />
