@@ -1,5 +1,13 @@
 <div align="center">
   <img
+    src="./assets/aquarium.svg"
+    alt="Aquário gerado a partir das minhas contribuições do GitHub"
+    width="800"
+  />
+</div>
+
+<div align="center">
+  <img
     src="./assets/developer.svg" 
     width="520"
   />

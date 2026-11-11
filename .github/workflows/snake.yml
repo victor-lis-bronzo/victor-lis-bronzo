@@ -25,6 +25,13 @@ jobs:
           outputs: dist/snake.svg?palette=github-dark
 
 
+      - name: generate aquarium.svg
+        uses: victor-lis-bronzo/git-aquarium@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.repository_owner }}
+          output: dist/aquarium.svg
+
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
